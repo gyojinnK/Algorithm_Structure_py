@@ -18,7 +18,6 @@ class Queue:
         node = self.front
         while node.next:
             node = node.next
-
         node.next = Node(value, None)
 
     def pop(self):
