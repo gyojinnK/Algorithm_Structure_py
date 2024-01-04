@@ -21,4 +21,3 @@ for i in range(T):
     stack = []
 
 print('\n'.join([el for el in res]))
-
