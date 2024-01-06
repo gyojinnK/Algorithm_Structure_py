@@ -6,7 +6,6 @@ class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         counter = collections.Counter(nums)
         res = []
-        print(counter)
 
         h = []
         for num in counter:
